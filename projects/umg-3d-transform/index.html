@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://engelmanna.github.io/alexengelmann.com-public/theme/images/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/theme/images/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://engelmanna.github.io/alexengelmann.com-public/theme/css/style.css">
+    <link rel="stylesheet" href="/theme/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:site_name" content="Alex Engelmann&#39;s Portfolio" />
     <meta name="twitter:site" content="@engelmanna" />
@@ -19,11 +19,11 @@
     <meta name="description" content="Experimenting with 3D rotations on UMG Widgets in Unreal Engine." />
     <meta property="og:description" content="Experimenting with 3D rotations on UMG Widgets in Unreal Engine." />
     <meta name="twitter:description" content="Experimenting with 3D rotations on UMG Widgets in Unreal Engine." />
-    <meta name="twitter:image" content=" https://engelmanna.github.io/alexengelmann.com-public/images/umg-3d-transform-thumb.jpg " />
-    <meta name="image" content="https://engelmanna.github.io/alexengelmann.com-public/images/umg-3d-transform-thumb.jpg " />
-    <meta property="og:image" content="https://engelmanna.github.io/alexengelmann.com-public/images/umg-3d-transform-thumb.jpg " />
+    <meta name="twitter:image" content=" https://alexengelmann.com/images/umg-3d-transform-thumb.jpg " />
+    <meta name="image" content="https://alexengelmann.com/images/umg-3d-transform-thumb.jpg " />
+    <meta property="og:image" content="https://alexengelmann.com/images/umg-3d-transform-thumb.jpg " />
     <meta name="twitter:card" content="summary" />
-    <meta property="og:url" content="https://engelmanna.github.io/alexengelmann.com-public/projects/umg-3d-transform/" />
+    <meta property="og:url" content="https://alexengelmann.com/projects/umg-3d-transform/" />
 </head>
 
 <body>
@@ -31,7 +31,7 @@
     <div class="container">
         <nav class="responsive-section">
             <div class="nav-logo">
-                <a href="https://engelmanna.github.io/alexengelmann.com-public/" aria-label="Home Page">
+                <a href="/" aria-label="Home Page">
                     <svg class="logo" viewBox="0 0 126 45" width="126" height="45">
                         <polygon points="42 0 30 0 0 30 0 44 9 44 29 24 29 44 42 44 42 0"></polygon>
                         <polygon points="57 31 57 0 44 0 44 44 64 44 64 31 57 31"></polygon>
@@ -49,8 +49,8 @@
             </div>
             <div class="nav-links fw-bold">
                 <ul class="flex" role="list">
-                    <li><a class="nav-link" href="https://engelmanna.github.io/alexengelmann.com-public/">Home</a></li>
-                    <li><a class="nav-link" href="https://engelmanna.github.io/alexengelmann.com-public/resume/">Resume</a></li>
+                    <li><a class="nav-link" href="/">Home</a></li>
+                    <li><a class="nav-link" href="/resume/">Resume</a></li>
                 </ul>
             </div>
         </nav>
@@ -62,7 +62,7 @@
   <section class="two-column-main-side">
     <div class="primary-body-text">
       <p>In late 2022, Epic Games presented a talk on <a href="https://youtu.be/dSTdAToJ7Gg">Advanced UI Templating Techniques using Blueprints and Materials</a>. In the talk they showed off the ability to alter a widget's position in 2D space by displacing the widget's verticies via a material. This technique opens the door for many interesting animations of UMG widgets without the need to calculate the animations via blueprints or timeline animations. </p>
-<p>I was inspired to take this idea a bit further and build functionality to allow for UMG widgets to be transformed in 3D space. This project had a few challenges. I had to build upon my learning from the <a href="https://engelmanna.github.io/alexengelmann.com-public/projects/ue-hextile-material/index.html">HexTile Material</a> project to better understand how to calculate rotations via matricies, and I needed to figure out how to calculate UV's that take perspective distortion into account. </p>
+<p>I was inspired to take this idea a bit further and build functionality to allow for UMG widgets to be transformed in 3D space. This project had a few challenges. I had to build upon my learning from the <a href="/projects/ue-hextile-material/index.html">HexTile Material</a> project to better understand how to calculate rotations via matricies, and I needed to figure out how to calculate UV's that take perspective distortion into account. </p>
 <p>I feel like this type of transform has a lot of possibilities. Some future work I'd like to try is adding scale and translation of widgets, as well as animating transforms via curve atlases.</p>
     </div>
     <div>
@@ -90,9 +90,9 @@
     </div>
     <div class="gallery-image">
       <picture>
-        <source srcset="https://engelmanna.github.io/alexengelmann.com-public/images\umg-3d-transform\umg-3d-transform-01.webp" type="image/webp">
-        <source srcset="https://engelmanna.github.io/alexengelmann.com-public/images\umg-3d-transform\umg-3d-transform-01.jpg" type="image/jpeg">
-        <img src="https://engelmanna.github.io/alexengelmann.com-public/images\umg-3d-transform\umg-3d-transform-01.jpg" alt="Material network of 3d widget transform" loading="lazy">
+        <source srcset="/images\umg-3d-transform\umg-3d-transform-01.webp" type="image/webp">
+        <source srcset="/images\umg-3d-transform\umg-3d-transform-01.jpg" type="image/jpeg">
+        <img src="/images\umg-3d-transform\umg-3d-transform-01.jpg" alt="Material network of 3d widget transform" loading="lazy">
       </picture>
       <p class="caption-box text-align-center caption">A breakdown of the 3D widget transform material</p>
     </div>
@@ -110,7 +110,7 @@
             <a href="https://www.linkedin.com/in/alexengelmann/" target="_blank" class="social-icon icon-linkedin" aria-label="Alex Engelmann's LinkedIn page"><span class="visually-hidden">LinkedIn</span></a>
         </div>
     </footer>
-</div>    <script type="module" src="https://engelmanna.github.io/alexengelmann.com-public/theme/js/main.js"></script>
+</div>    <script type="module" src="/theme/js/main.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ07BB6N6F"></script>
     <script>
